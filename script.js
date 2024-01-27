@@ -19,5 +19,23 @@ for (let j = 0; j < 100; j++){
 
 let arr = [1,5,12,18,20]
 for (let a = 0; a < arr.length; a++){
-    
+    console.log(arr[a]);
+}
+
+// FOR IN
+
+let obj = {
+    name:"Dog",
+    age :5
+}
+
+for (const key in obj){
+    console.log(key);
+    console.log(obj[key]);
+}
+
+
+let  group = ["Shaxruz","Farid","Bobur","Shavkat","Xusan","Sardor","Laziz","Tolibjon","Bobur","Rayhona","Nodirbek","Jasmina"];
+for (let a = 0; a < group.length; a++){
+    console.log(group[a]+ ". 23-gurux talabasi");
 }
